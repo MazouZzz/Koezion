@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1><img src="logo.png" style="position:absolute;top:0px;left:0px;" alt="Paysage 1" height="74.5" width="135"></h1>
+                <li><a href="Koezion.html">Retour Accueil</a></li>
+                <li><a href="news.html">Nos actualités</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>              <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <h1>S'inscrire</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required><br>
+
+            <label for="date_naissance">Date de Naissance:</label>
+            <input type="date" id="date_naissance" name="date_naissance" required><br>
+
+            <label for="lieu_naissance">Lieu de Naissance:</label>
+            <input type="text" id="lieu_naissance" name="lieu_naissance" required><br>
+
+            <label for="poste_recherche">Poste Recherché:</label>
+            <input type="text" id="poste_recherche" name="poste_recherche" required><br>
+
+            <label for="niveau_formation">Niveau de Formation:</label>
+
+            <select name="Genre" id="genre">
+                <option value="">  --Choisir--  </option>
+                <option value="infra">infra BAC</option>
+                <option value="cap BEP">CAP/BEP</option>
+                <option value="bac">BAC</option>
+                <option value="bac2">BAC +2</option>
+                <option value="Licence">Licence (BAC+3)</option>
+                <option value="master">Master (BAC+5)</option>
+              </select><br />
+              <br />
+
+            <label for="diplome">Intitulé du diplome:</label>
+            <input type="text" id="idiplome" name="idiplome" required><br>
+
+            <label for="phone">Numéro de téléphone:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+
+            <label for="mail">Mail:</label>
+            <input type="email" id="mail" name="mail" required><br>
+
+            <label for="adpos">Adresse postale:</label>
+            <input type="text" id="adpos" name="adpos" required><br>
+
+            <label for="cp">Code postale:</label>
+            <input type="text" id="cp" name="cp" required><br>
+
+            <label for="genre">Genre:</label>
+            <select name="Genre" id="genre">
+                <option value="">--Choisir--</option>
+                <option value="dog">M</option>
+                <option value="cat">F</option>
+                <option value="hamster">Autre</option>
+              </select><br />
+              <br />
+
+            <label for="cv">Déposer CV:</label>
+            <input type="file" id="cv" name="cv" required><br>
+
+            <input type="submit" value="Déposer">
+        </form>
+    </main>
+</body>
+</html>
